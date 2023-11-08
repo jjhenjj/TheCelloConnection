@@ -1,0 +1,233 @@
+﻿/* body is the entire page */
+body {
+    background-color: #FFFFDF; /*change color of overall background here */
+    margin: 10px;
+    padding: 20px; /*added padding to the body so the page does not hug the left side or the right side */
+    max-width: 1080px; /* set the maximum width of the page so the paragraphs do not go crazy wide */
+}
+
+/* table is most of the page - everything we have on the page is in the table*/
+table {
+    border-collapse: collapse; /* do not show space between the table cells */
+}
+
+
+
+h1 {
+    text-align: left;
+    color: #560000;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #560000;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    a:link {
+        color: #784841;
+    }
+
+    a:visited {
+        none;
+        color: #784841;
+    }
+
+    a:hover {
+        color: #CC9900;
+    }
+
+
+.rightPicture {
+    float: right;
+    padding-left: 8px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.indentedPicture {
+    text-align: center;
+    width: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.centerPicture {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.leftPicture {
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.caption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.pageFont {
+    font-family: Arial, cursive, sans-serif;
+}
+
+
+
+/* the top cell holds the banner with the logo at the top of our table. We don't us banner */
+.topCell {
+    width: "100%";
+    padding: 8px;
+    padding-left: 15px;
+    margin: 0px;
+    background-color: #FFFFDF; /* change the color of the banner with the logo here */
+}
+
+/* the main cell holds the variable text on the page */
+.mainCell {
+    padding: 10px;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.mainCellLink {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a.mainCellLink:link {
+    text-decoration: none;
+    color: #560000;
+}
+
+a.mainCellLink:visited {
+    text-decoration: none;
+    color: #800000;
+}
+
+a.mainCellLink:hover {
+    color: #CC9900;
+}
+
+
+
+/* the left side bar has links to the other pages in our website */
+.sideBar {
+    background-color: #FFB84D; /* Change color of sidebar here #*/
+    width: 120px;
+    padding-top: 31px;
+    padding-left: 20px;
+    padding-right: 15px;
+    vertical-align: top;
+    /* border-right: 5px solid #AEE69D; */
+}
+
+.sideLink {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a.sideLink:link {
+    color: #800000;
+}
+
+a.sideLink:visited {
+    color: #800000;
+}
+
+a.sideLink:hover {
+    color: #333300;
+}
+
+/* the dead link is always the page that we currently are on */
+.deadLink {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFFFCC;
+}
+
+/* inside table cell classes */
+.insideTable {
+    /* border: 2px solid #800000; */
+    vertical-align: top;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.light td {
+    background-color: #FFFFDF;
+    color: #000000;
+    font-size: 12px;
+    padding: 5px;
+    padding-top: 0px;
+    padding-left: 40px;
+    /* border-bottom: 1px solid #800000; */
+}
+
+.dark td {
+    background-color: #FFE0A3;
+    color: #560000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+.photoGallery td {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+/* the copyright cell of the table */
+.copyRight {
+    padding-right: 30px;
+    text-align: right;
+    vertical-align: text-top;
+    font-size: 10px;
+    /* background-color: #AEE69D; */
+}
+
+/* These set the color of the line at the bottom of the page */
+
+.tableLine {
+    background-color: #800000; /* this is the long part of the line - the width of the page */
+    height: 2px;
+}
+
+.sidebarLine {
+    background-color: #800000; /* this is the short part of the line in the side bar */
+    height: 2px;
+}
+
+.emergencyText {
+    color: red;
+}
